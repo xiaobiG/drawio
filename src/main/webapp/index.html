@@ -232,18 +232,6 @@
 
 			mxForceIncludes = false;
 
-			// ====> 开发模式文件指向 github
-			let dev = true;
-			if (dev) {
-				drawDevUrl = `https://xiaobig.github.io/drawio/src/main/webapp/`;
-				geBasePath = `https://xiaobig.github.io/drawio/src/main/webapp/js/grapheditor`;
-				mxBasePath = `https://xiaobig.github.io/drawio/src/main/webapp/mxgraph`;
-				mxForceIncludes = true;
-			}
-			// ====> 开发模式文件指向本地
-
-
-
 			mxscript(drawDevUrl + 'js/PreConfig.js');
 			mxscript(drawDevUrl + 'js/diagramly/Init.js');
 			mxscript(geBasePath + '/Init.js');
