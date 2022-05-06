@@ -329,7 +329,8 @@
 	 /**
 	  * Defines the maximum size for images.
 	  */
-	 EditorUi.prototype.maxBackgroundSize = 1600;
+	 // EditorUi.prototype.maxBackgroundSize = 1600;
+	 EditorUi.prototype.maxBackgroundSize = 1600000;
  
 	 /**
 	  * Defines the maximum size for images.
